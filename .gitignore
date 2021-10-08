@@ -6,3 +6,4 @@ dist/
 tmp/
 venv/
 credentials.ini
+*.snap
