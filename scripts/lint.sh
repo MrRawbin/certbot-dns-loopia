@@ -3,4 +3,5 @@
 set -e
 set -x
 
-pylint certbot_dns_loopia.py
+cd "$(dirname "$0")"
+pylint ../certbot_dns_loopia.py
